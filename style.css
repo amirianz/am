@@ -3179,6 +3179,34 @@ input[type=checkbox] {
   .zirmenu2 {
     display: none !important;
   }
+
+  .head-2 {
+    justify-content: flex-end !important;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .sabt {
+    left: 2px !important;
+  }
+}
+
+@media only screen and (max-width: 404px) {
+  .sabt {
+    left: 2px !important;
+    width: 335px !important;
+  }
+
+  .sabt5 {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .sabt {
+    width: 285px !important;
+  }
 }
 
 /* 4 */
